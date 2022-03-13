@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dice game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img src="imgs/dice_none.png" alt="dice" id="dice">
+
+
+    <!-- status in middle of the bord  -->
+    <div id="status">
+        <h1 id="score_status">status</h1>
+        <h2 id ="turn"> blue to start</h2>
+    </div>
+    
+
+    <!-- buttons  -->
+    <div class="buttons">
+        <button id="roll">Roll</button>
+        <button id="hold">Hold</button>
+    </div>
+
+    <!-- blue side  -->
+    <div id="blue">
+        <div class="container">
+            <h1>Blue</h1>
+            <p>Score: <span id="blue_score">0</span></p>
+            
+        </div>
+    </div>
+    
+    <!-- red side  -->
+    <div id="red">
+        <div class="container">
+            <h1>Red</h1>
+            <p>Score: <span id="red_score">0</span></p>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
